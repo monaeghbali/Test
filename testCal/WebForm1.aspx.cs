@@ -55,7 +55,7 @@ namespace testCal
             while (i++ < end && stackone.Count != 0 && inputarray[i] != "=");
             string txtout = stackone.Pop().ToString();
             //return txtout;
-            return "a" + "b" +"c";
+            return "a" + "b" +"c" +"d";
         }
     }
 }
